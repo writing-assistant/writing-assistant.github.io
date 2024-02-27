@@ -222,138 +222,6 @@
     ]
   },
   {
-    "name": "System Output Preferences - Design",
-    "category": "user",
-    "values": [
-      {
-        "value": "Explainability",
-        "label": "Explainability"
-      },
-      {
-        "value": "Bias",
-        "label": "Bias"
-      },
-      {
-        "value": "Personalization",
-        "label": "Personalization"
-      },
-      {
-        "value": "Textual coherence",
-        "label": "Textual coherence"
-      },
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Textual diversity",
-        "label": "Textual diversity"
-      }
-    ]
-  },
-  {
-    "name": "System Output Preferences - Evaluation",
-    "category": "user",
-    "values": [
-      {
-        "value": "Explainability",
-        "label": "Explainability"
-      },
-      {
-        "value": "Bias",
-        "label": "Bias"
-      },
-      {
-        "value": "Personalization",
-        "label": "Personalization"
-      },
-      {
-        "value": "Textual coherence",
-        "label": "Textual coherence"
-      },
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Textual diversity",
-        "label": "Textual diversity"
-      }
-    ]
-  },
-  {
-    "name": "Relationship to System - Design",
-    "category": "user",
-    "values": [
-      {
-        "value": "Availability",
-        "label": "Availability"
-      },
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Integrity",
-        "label": "Integrity"
-      },
-      {
-        "value": "Ownership",
-        "label": "Ownership"
-      },
-      {
-        "value": "Transparency",
-        "label": "Transparency"
-      },
-      {
-        "value": "Privacy",
-        "label": "Privacy"
-      },
-      {
-        "value": "Agency",
-        "label": "Agency"
-      },
-      {
-        "value": "Trust",
-        "label": "Trust"
-      }
-    ]
-  },
-  {
-    "name": "Relationship to System - Evaluation",
-    "category": "user",
-    "values": [
-      {
-        "value": "Availability",
-        "label": "Availability"
-      },
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Ownership",
-        "label": "Ownership"
-      },
-      {
-        "value": "Transparency",
-        "label": "Transparency"
-      },
-      {
-        "value": "Privacy",
-        "label": "Privacy"
-      },
-      {
-        "value": "Agency",
-        "label": "Agency"
-      },
-      {
-        "value": "Trust",
-        "label": "Trust"
-      }
-    ]
-  },
-  {
     "name": "User Capabilities - Design",
     "category": "user",
     "values": [
@@ -438,6 +306,138 @@
       {
         "value": "Creativity",
         "label": "Creativity"
+      }
+    ]
+  },
+  {
+    "name": "Relationship to System - Design",
+    "category": "user",
+    "values": [
+      {
+        "value": "Availability",
+        "label": "Availability"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Integrity",
+        "label": "Integrity"
+      },
+      {
+        "value": "Ownership",
+        "label": "Ownership"
+      },
+      {
+        "value": "Transparency",
+        "label": "Transparency"
+      },
+      {
+        "value": "Privacy",
+        "label": "Privacy"
+      },
+      {
+        "value": "Agency",
+        "label": "Agency"
+      },
+      {
+        "value": "Trust",
+        "label": "Trust"
+      }
+    ]
+  },
+  {
+    "name": "Relationship to System - Evaluation",
+    "category": "user",
+    "values": [
+      {
+        "value": "Availability",
+        "label": "Availability"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Ownership",
+        "label": "Ownership"
+      },
+      {
+        "value": "Transparency",
+        "label": "Transparency"
+      },
+      {
+        "value": "Privacy",
+        "label": "Privacy"
+      },
+      {
+        "value": "Agency",
+        "label": "Agency"
+      },
+      {
+        "value": "Trust",
+        "label": "Trust"
+      }
+    ]
+  },
+  {
+    "name": "System Output Preferences - Design",
+    "category": "user",
+    "values": [
+      {
+        "value": "Explainability",
+        "label": "Explainability"
+      },
+      {
+        "value": "Bias",
+        "label": "Bias"
+      },
+      {
+        "value": "Personalization",
+        "label": "Personalization"
+      },
+      {
+        "value": "Textual coherence",
+        "label": "Textual coherence"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Textual diversity",
+        "label": "Textual diversity"
+      }
+    ]
+  },
+  {
+    "name": "System Output Preferences - Evaluation",
+    "category": "user",
+    "values": [
+      {
+        "value": "Explainability",
+        "label": "Explainability"
+      },
+      {
+        "value": "Bias",
+        "label": "Bias"
+      },
+      {
+        "value": "Personalization",
+        "label": "Personalization"
+      },
+      {
+        "value": "Textual coherence",
+        "label": "Textual coherence"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Textual diversity",
+        "label": "Textual diversity"
       }
     ]
   },
@@ -686,68 +686,24 @@
     ]
   },
   {
-    "name": "User - Steering the System",
+    "name": "UI - Interaction Metaphor",
     "category": "interaction",
     "values": [
       {
-        "value": "Other",
-        "label": "Other"
+        "value": "Tool",
+        "label": "Tool"
       },
       {
-        "value": "Implicit",
-        "label": "Implicit"
+        "value": "Agent",
+        "label": "Agent"
       },
       {
-        "value": "No control",
-        "label": "No control"
-      },
-      {
-        "value": "Explicit",
-        "label": "Explicit"
-      }
-    ]
-  },
-  {
-    "name": "User - Integrating System Output",
-    "category": "interaction",
-    "values": [
-      {
-        "value": "No integration",
-        "label": "No integration"
-      },
-      {
-        "value": "Editing",
-        "label": "Editing"
-      },
-      {
-        "value": "Selection",
-        "label": "Selection"
+        "value": "Hybrid",
+        "label": "Hybrid"
       },
       {
         "value": "Other",
         "label": "Other"
-      },
-      {
-        "value": "Inspiration",
-        "label": "Inspiration"
-      }
-    ]
-  },
-  {
-    "name": "UI - Interface Paradigm",
-    "category": "interaction",
-    "values": [
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Text editor",
-        "label": "Text editor"
-      },
-      {
-        "value": "Chatbot",
-        "label": "Chatbot"
       }
     ]
   },
@@ -778,6 +734,24 @@
     ]
   },
   {
+    "name": "UI - Interface Paradigm",
+    "category": "interaction",
+    "values": [
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Text editor",
+        "label": "Text editor"
+      },
+      {
+        "value": "Chatbot",
+        "label": "Chatbot"
+      }
+    ]
+  },
+  {
     "name": "UI - Visual Differentiation",
     "category": "interaction",
     "values": [
@@ -800,28 +774,6 @@
     ]
   },
   {
-    "name": "UI - Interaction Metaphor",
-    "category": "interaction",
-    "values": [
-      {
-        "value": "Tool",
-        "label": "Tool"
-      },
-      {
-        "value": "Agent",
-        "label": "Agent"
-      },
-      {
-        "value": "Hybrid",
-        "label": "Hybrid"
-      },
-      {
-        "value": "Other",
-        "label": "Other"
-      }
-    ]
-  },
-  {
     "name": "UI - Initiation",
     "category": "interaction",
     "values": [
@@ -840,6 +792,72 @@
       {
         "value": "Proposal",
         "label": "Proposal"
+      }
+    ]
+  },
+  {
+    "name": "User - Integrating System Output",
+    "category": "interaction",
+    "values": [
+      {
+        "value": "No integration",
+        "label": "No integration"
+      },
+      {
+        "value": "Editing",
+        "label": "Editing"
+      },
+      {
+        "value": "Selection",
+        "label": "Selection"
+      },
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Inspiration",
+        "label": "Inspiration"
+      }
+    ]
+  },
+  {
+    "name": "User - Steering the System",
+    "category": "interaction",
+    "values": [
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Implicit",
+        "label": "Implicit"
+      },
+      {
+        "value": "No control",
+        "label": "No control"
+      },
+      {
+        "value": "Explicit",
+        "label": "Explicit"
+      }
+    ]
+  },
+  {
+    "name": "System - User Data Access",
+    "category": "interaction",
+    "values": [
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Additional data",
+        "label": "Additional data"
+      },
+      {
+        "value": "Input text",
+        "label": "Input text"
       }
     ]
   },
@@ -884,24 +902,6 @@
     ]
   },
   {
-    "name": "System - User Data Access",
-    "category": "interaction",
-    "values": [
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Additional data",
-        "label": "Additional data"
-      },
-      {
-        "value": "Input text",
-        "label": "Input text"
-      }
-    ]
-  },
-  {
     "name": "Digital Infrastructure",
     "category": "ecosystem",
     "values": [
@@ -912,6 +912,24 @@
       {
         "value": "Technical interoperability",
         "label": "Technical interoperability"
+      }
+    ]
+  },
+  {
+    "name": "Access Model",
+    "category": "ecosystem",
+    "values": [
+      {
+        "value": "Other",
+        "label": "Other"
+      },
+      {
+        "value": "Commercial software",
+        "label": "Commercial software"
+      },
+      {
+        "value": "Free and open-source software",
+        "label": "Free and open-source software"
       }
     ]
   },
@@ -948,24 +966,6 @@
       {
         "value": "Remote writing",
         "label": "Remote writing"
-      }
-    ]
-  },
-  {
-    "name": "Access Model",
-    "category": "ecosystem",
-    "values": [
-      {
-        "value": "Other",
-        "label": "Other"
-      },
-      {
-        "value": "Commercial software",
-        "label": "Commercial software"
-      },
-      {
-        "value": "Free and open-source software",
-        "label": "Free and open-source software"
       }
     ]
   },
