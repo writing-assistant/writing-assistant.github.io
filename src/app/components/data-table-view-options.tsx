@@ -52,7 +52,7 @@ export function DataTableViewOptions<TData>({
           .map((column, index, arr) => {
             if (column.id === "ID") return null;
             return (
-              <>
+              <div key={column.id}>
                 {fieldAndCategory[column.id] &&
                   fieldAndCategory[column.id] !==
                     fieldAndCategory[arr[index - 1]?.id] && (
@@ -71,7 +71,7 @@ export function DataTableViewOptions<TData>({
                     fieldAndCategory[arr[index + 1]?.id]) && (
                   <DropdownMenuSeparator />
                 )}
-              </>
+              </div>
             );
           })}
       </DropdownMenuContent>
