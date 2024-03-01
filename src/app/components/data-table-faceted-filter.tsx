@@ -86,7 +86,12 @@ export function DataTableFacetedFilter<TData, TValue>({
           <CommandList>
             <CommandEmpty>No results found.</CommandEmpty>
             <CommandGroup>
-              {options.map((option) => {
+              {options.sort((a, b) => {
+                  if (a.value === 'Other') return 1;
+                  if (b.value === 'Other') return -1;
+                  return a.value.localeCompare(b.value);
+                })
+                .map((option) => {
                 const isSelected = selectedValues.has(option.value)
                 return (
                   <CommandItem
