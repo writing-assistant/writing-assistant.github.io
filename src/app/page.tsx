@@ -8,6 +8,10 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faFilePdf, faEnvelope } from '@fortawesome/free-solid-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+
 import {
   HoverCard,
   HoverCardTrigger,
@@ -36,7 +40,7 @@ import TaskPage from "./paper";
 const TITLE = "A Design Space for Intelligent and Interactive Writing Assistants";
 
 
-const PAPER_URL = "https://arxiv.org/abs/2311.09188";
+const PAPER_URL = "TODO";
 const BASE_PATH = "";
 
 interface Author {
@@ -105,12 +109,6 @@ const AuthorHoverCard = (author: Author) => (
         <div className="space-y-1">
           <h4 className="text-sm font-semibold">{author.name}</h4>
           <p className="text-sm">{author.affiliation}</p>
-          <div className="flex items-center pt-2 overflow-wrap break-words">
-            <strong>Email: </strong>{" "}
-            <Link className="pl-0.5" href={`mailto:${author.email}`}>
-              {author.email}
-            </Link>
-          </div>
         </div>
       </div>
     </HoverCardContent>
@@ -131,12 +129,6 @@ const AuthorHoverCard2 = (author: (typeof AUTHORS)[0]) => (
         <div className="space-y-1">
           <h4 className="text-sm font-semibold">{author.name}</h4>
           <p className="text-sm">{author.affiliation}</p>
-          <div className="flex items-center pt-2 overflow-wrap break-words text-sm">
-            <strong>Email: </strong>{" "}
-            <Link className="pl-0.5" href={`mailto:${author?.email}`}>
-              {author?.email}
-            </Link>
-          </div>
         </div>
       </div>
     </HoverCardContent>
@@ -146,13 +138,27 @@ const AuthorHoverCard2 = (author: (typeof AUTHORS)[0]) => (
 
 const Headline = () => (
   <PageHeader className="page-header pb-12 pt-4">
-    <PageHeaderHeading className="tracking-tight">{TITLE}</PageHeaderHeading>
+    <PageHeaderHeading className="tracking-tight">{TITLE} <a href="TODO" className="dsiiwa-link ml-2"><FontAwesomeIcon icon={faFilePdf} /></a> </PageHeaderHeading>
     <Separator className="my-2" />
-    <div className="flex flex-wrap justify-start items-start align-start space-x-0">
+
+    <div className="pt-8">
+      <p className="pb-4">Welcome to our design space for intelligent and interactive writing assistants! The design space consists of five aspects: <span className="dsiiwa-task-color font-bold">task</span>, <span className="dsiiwa-user-color font-bold">user</span>, <span className="dsiiwa-technology-color font-bold">technology</span>, <span className="dsiiwa-interaction-color font-bold">interaction</span>, and <span className="dsiiwa-ecosystem-color font-bold">ecosystem</span>. Within each aspect, we define dimensions (i.e., fundamental components of an aspect) and codes (i.e., potential options for each dimension). Please refer to <a href="TODO" className="dsiiwa-link">our paper</a> for the detailed definitions of each dimension and code.</p>
+      
+      <p className="pb-4">With this design space, we annotated 115 papers from NLP and HCI fields to understand the current landscape of writing assistants. We hope that our design space offers researchers and designers a practical tool to navigate, comprehend, and compare the various possibilities of writing assistants, and aid in the envisioning and design of new writing assistants.</p>
+
+      <p className="pb-4">Our design space is a <span className="font-bold">living artifact</span>, as it will evolve over time alongside the field. We invite the community to contribute to this artifact by adding new papers, annotations, and discussions to track future developments in this space. Please visit <a href="https://github.com/writing-assistant/writing-assistant.github.io" className="dsiiwa-link">our GitHub repository <FontAwesomeIcon icon={faGithub} /></a> and contribute to the artifact.</p>
+    </div>
+
+    {/* add an image from url */}
+    <div className="dsiiwa-figure pt-8">
+      <img src="https://brushbrushbrushyourteeth.files.wordpress.com/2024/03/design_space.png"/>
+    </div>
+
+    {/* <div className="flex flex-wrap justify-start items-start align-start space-x-0">
       {AUTHORS.map((author, index) => (
         <React.Fragment key={index}>{AuthorHoverCard2(author)}</React.Fragment>
       ))}
-    </div>
+    </div> */}
   </PageHeader>
 );
 
@@ -162,6 +168,18 @@ export default function Home() {
       <Headline />
       <div className="overflow-hidden rounded-[0.5rem] border bg-background shadow">
         <TaskPage />
+      </div>
+
+      <div className="pt-16">
+        <p className="pb-4">
+          <span className="font-bold">Authors</span>: Mina Lee <a href="mailto:mnlee@uchicago.edu"  className="dsiiwa-link"><FontAwesomeIcon icon={faEnvelope} /></a>, Katy Ilonka Gero, John Joon Young Chung, Simon Buckingham Shum, Vipul Raheja, Hua Shen, Subhashini Venugopalan, Thiemo Wambsganss, David Zhou, Emad A. Alghamdi, Tal August, Avinash Bhat, Madiha Zahrah Choksi, Senjuti Dutta, Jin L.C. Guo, Md Naimul Hoque, Yewon Kim, Seyed Parsa Neshaei, Agnia Sergeyuk, Antonette Shibani, Disha Shrivastava, Lila Shroff, Jessi Stark, Sarah Sterman, Sitong Wang, Antoine Bosselut, Daniel Buschek, Joseph Chee Chang, Sherol Chen, Max Kreminski, Joonsuk Park, Roy Pea, Eugenia H. Rho, Shannon Zejiang Shen, Pao Siangliulue
+        </p>
+        <p className="pb-4">
+          <span className="font-bold">Core group of annotators</span>: Avinash Bhat, Simon Buckingham Shum, Agnia Sergeyuk, Yewon Kim, David Zhou, Emad A. Alghamdi, Jin L.C. Guo, Seyed Parsa Neshaei, Hua Shen, Md Naimul Hoque, Madiha Zahrah Choksi, Katy Ilonka Gero, Sarah Sterman, Antonette Shibani, Mina Lee
+        </p>
+        <p className="pb-4">
+          <span className="font-bold">Designer of this artifact</span>: Shannon Zejiang Shen, Mina Lee
+        </p>
       </div>
     </div>
   );

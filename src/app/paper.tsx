@@ -46,11 +46,11 @@ export default function TaskPage() {
         <div className="flex items-center justify-between space-y-2">
           <div>
             <h2 className="text-2xl font-bold tracking-tight">
-              Papers Reviewed
+              Annotated Papers
             </h2>
-            <p className="text-muted-foreground">
+            {/* <p className="text-muted-foreground">
               Here&apos;s the list of papers we&apos;ve surveyed by far.
-            </p>
+            </p> */}
           </div>
         </div>
         <DataTable data={papers} columns={columns} />

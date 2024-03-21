@@ -99,3 +99,38 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.dsiiwa-link {
+  color: #004aad;
+  text-decoration: none;
+}
+
+.dsiiwa-link:hover {
+  text-shadow: 0px 0px 20px #f19c00;
+  /* filter: dropshadow(color=#f19c00, offx=2, offy=2); */
+}
+
+.dsiiwa-figure {
+  margin: 0 auto;
+  max-width: 900px;
+}
+
+.dsiiwa-task-color {
+  color: #1c91bd;
+}
+
+.dsiiwa-user-color {
+  color: #f19c00;
+}
+
+.dsiiwa-technology-color {
+  color: #4455aa;
+}
+
+.dsiiwa-interaction-color {
+  color: #ed624a;
+}
+
+.dsiiwa-ecosystem-color {
+  color: #125434;
+}
