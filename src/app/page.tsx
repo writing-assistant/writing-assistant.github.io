@@ -41,7 +41,7 @@ import next from "next";
 const TITLE = "A Design Space for Intelligent and Interactive Writing Assistants";
 
 
-const PAPER_URL = "TODO";
+const PAPER_URL = "http://arxiv.org/abs/2403.14117";
 const GITHUB_URL = "https://github.com/writing-assistant/writing-assistant.github.io";
 const BASE_PATH = "";
 
@@ -96,11 +96,9 @@ const AUTHORS:Author[] = [
 const AuthorHoverCard = (author: Author) => (
   <HoverCard openDelay={100} closeDelay={100}>
     <HoverCardTrigger className="pr-4" style={{ marginLeft: 0 }}>
-      {/* <a href={author.website} target="_blank"> */}
       <Button className="px-0" variant="link">
         {author.name}
       </Button>
-      {/* </a> */}
     </HoverCardTrigger>
     <HoverCardContent>
       <div className="flex justify-between">
@@ -145,6 +143,7 @@ const Headline = () => (
     <section className="flex w-full items-center space-x-4 pb-1 pt-4 md:pb-1">
       <Link
         href={PAPER_URL}
+        target="_blank"
         className={cn(buttonVariants({ variant: "outline" }), "rounded-[6px]")}
       >
         <ReaderIcon className="ml-0 h-4 w-4" />
@@ -153,6 +152,7 @@ const Headline = () => (
       </Link>
       <Link
         href={GITHUB_URL}
+        target="_blank"
         className={cn(buttonVariants({ variant: "outline" }), "rounded-[6px]")}
       >
         <GitHubLogoIcon className="ml-0 h-4 w-4" />
@@ -178,11 +178,11 @@ const Headline = () => (
     </section>
 
     <div className="pt-4 font-sans">
-      <p className="pb-4">Welcome to our design space for intelligent and interactive writing assistants! The design space consists of five aspects: <span className="dsiiwa-task-color font-bold">task</span>, <span className="dsiiwa-user-color font-bold">user</span>, <span className="dsiiwa-technology-color font-bold">technology</span>, <span className="dsiiwa-interaction-color font-bold">interaction</span>, and <span className="dsiiwa-ecosystem-color font-bold">ecosystem</span>. Within each aspect, we define dimensions (i.e., fundamental components of an aspect) and codes (i.e., potential options for each dimension). Please refer to <a href="TODO" className="dsiiwa-link">our paper</a> for the detailed definitions of each dimension and code.</p>
+      <p className="pb-4">Welcome to our design space for intelligent and interactive writing assistants! The design space consists of five aspects: <span className="dsiiwa-task-color font-bold">task</span>, <span className="dsiiwa-user-color font-bold">user</span>, <span className="dsiiwa-technology-color font-bold">technology</span>, <span className="dsiiwa-interaction-color font-bold">interaction</span>, and <span className="dsiiwa-ecosystem-color font-bold">ecosystem</span>. Within each aspect, we define dimensions (i.e., fundamental components of an aspect) and codes (i.e., potential options for each dimension). Please refer to <a href={PAPER_URL} target="_blank" className="dsiiwa-link">our paper</a> for the detailed definitions of each dimension and code.</p>
       
       <p className="pb-4">With this design space, we annotated 115 papers from NLP and HCI fields to understand the current landscape of writing assistants. We hope that our design space offers researchers and designers a practical tool to navigate, comprehend, and compare the various possibilities of writing assistants, and aid in the envisioning and design of new writing assistants.</p>
 
-      <p className="pb-4">Our design space is a <span className="font-bold">living artifact</span>, as it will evolve over time alongside the field. We invite the community to contribute to this artifact by adding new papers, annotations, and discussions to track future developments in this space. Please visit <a href="https://github.com/writing-assistant/writing-assistant.github.io" className="dsiiwa-link">our GitHub repository <span style={{ display: 'inline-block', transform: "translateY(0.5px)" }}><GitHubLogoIcon /></span></a> and contribute to the artifact.</p>
+      <p className="pb-4">Our design space is a <span className="font-bold">living artifact</span>, as it will evolve over time alongside the field. We invite the community to contribute to this artifact by adding new papers, annotations, and discussions to track future developments in this space. Please visit <a href={GITHUB_URL} target="_blank" className="dsiiwa-link">our GitHub repository <span style={{ display: 'inline-block', transform: "translateY(0.5px)" }}><GitHubLogoIcon /></span></a> and contribute to the artifact.</p>
     </div>
     
 
@@ -215,7 +215,7 @@ export default function Home() {
 
       <div className="pt-16">
         <p className="pb-4">
-          <span className="font-bold">Authors</span>: Mina Lee <a href="mailto:mnlee@uchicago.edu"  className="dsiiwa-link"> <span style={{ display: 'inline-block', transform: "translateY(1px)" }}><EnvelopeClosedIcon/></span></a>, Katy Ilonka Gero, John Joon Young Chung, Simon Buckingham Shum, Vipul Raheja, Hua Shen, Subhashini Venugopalan, Thiemo Wambsganss, David Zhou, Emad A. Alghamdi, Tal August, Avinash Bhat, Madiha Zahrah Choksi, Senjuti Dutta, Jin L.C. Guo, Md Naimul Hoque, Yewon Kim, Seyed Parsa Neshaei, Agnia Sergeyuk, Antonette Shibani, Disha Shrivastava, Lila Shroff, Jessi Stark, Sarah Sterman, Sitong Wang, Antoine Bosselut, Daniel Buschek, Joseph Chee Chang, Sherol Chen, Max Kreminski, Joonsuk Park, Roy Pea, Eugenia H. Rho, Shannon Zejiang Shen, Pao Siangliulue
+          <span className="font-bold">Authors</span>: Mina Lee <a href="mailto:mnlee@uchicago.edu" className="dsiiwa-link"> <span style={{ display: 'inline-block', transform: "translateY(1px)" }}><EnvelopeClosedIcon/></span></a>, Katy Ilonka Gero, John Joon Young Chung, Simon Buckingham Shum, Vipul Raheja, Hua Shen, Subhashini Venugopalan, Thiemo Wambsganss, David Zhou, Emad A. Alghamdi, Tal August, Avinash Bhat, Madiha Zahrah Choksi, Senjuti Dutta, Jin L.C. Guo, Md Naimul Hoque, Yewon Kim, Seyed Parsa Neshaei, Agnia Sergeyuk, Antonette Shibani, Disha Shrivastava, Lila Shroff, Jessi Stark, Sarah Sterman, Sitong Wang, Antoine Bosselut, Daniel Buschek, Joseph Chee Chang, Sherol Chen, Max Kreminski, Joonsuk Park, Roy Pea, Eugenia H. Rho, Shannon Zejiang Shen, Pao Siangliulue
         </p>
         <p className="pb-4">
           <span className="font-bold">Core group of annotators</span>: Avinash Bhat, Simon Buckingham Shum, Agnia Sergeyuk, Yewon Kim, David Zhou, Emad A. Alghamdi, Jin L.C. Guo, Seyed Parsa Neshaei, Hua Shen, Md Naimul Hoque, Madiha Zahrah Choksi, Katy Ilonka Gero, Sarah Sterman, Antonette Shibani, Mina Lee
