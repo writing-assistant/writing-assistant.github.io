@@ -1,13 +1,31 @@
 # A Design Space for Intelligent and Interactive Writing Assistants
 
-This is the repository for the website of the paper "A Design Space for Intelligent and Interactive Writing Assistants" (CHI 2024). The website is hosted at [https://writing-assistant.github.io/](https://writing-assistant.github.io/).
+This is the repository for the website of the paper [A Design Space for Intelligent and Interactive Writing Assistants (Lee et al., CHI 2024)](https://arxiv.org/abs/2403.14117). The website is hosted at [https://writing-assistant.github.io/](https://writing-assistant.github.io/).
 
+Please note that our website is still under contruction. We will continue iterating on the design and implement features. If you have any feedback or want to contribute, don't hesitate to reach out!
+
+| ❤️ | We welcome your feedback and contribution. |
+|---|--------------------------------------------|
+
+**Features in the wishlist** (Last updated: March 22, 2024)
+
+* Add links to the annotated papers
+* Add authors to the table and enable search based on authors
+* Create one page per paper that shows all dimensions and codes associated with the paper
+
+**Contact**
+
+* Maintenance: [Mina Lee](https://minalee.info/) \<mnlee@uchicago.edu\>
+* Designer: [Shannon Zejiang Shen](https://www.szj.io/) \<zjshen@mit.edu\>
 
 ## How to Contribute
 
-### Paper and Annotation
+### Annotated papers
 
-TODO
+| ⚠️ | Coming soon |
+|---|--------------------------------------------|
+
+For now, please reach out to us if you want to add your paper to the living artifact.
 
 ### Website
 
