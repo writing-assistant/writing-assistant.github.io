@@ -26,28 +26,24 @@ export default function TaskPage() {
 
   return (
     <>
-      <div className="sm:hidden">
+      {/* <div className="sm:hidden">
         <Image
-          src="/examples/tasks-light.png"
+          src="/images/annotated-papers.png"
           width={1280}
           height={998}
-          alt="Playground"
-          className="block dark:hidden"
+          alt="A screenshot of the paper browser."
+          className="block"
         />
-        <Image
-          src="/examples/tasks-dark.png"
-          width={1280}
-          height={998}
-          alt="Playground"
-          className="hidden dark:block"
-        />
-      </div>
-      <div className="hidden h-full flex-1 flex-col space-y-8 p-8 md:flex">
+      </div> */}
+      <div className="h-full flex-1 flex-col space-y-8 p-8">
         <div className="flex items-center justify-between space-y-2">
           <div>
             <h2 className="text-2xl font-bold tracking-tight">
               Annotated Papers
             </h2>
+            <p className="text-muted-foreground md:hidden">
+              Best used with a larger screen.
+            </p>
             {/* <p className="text-muted-foreground">
               Here&apos;s the list of papers we&apos;ve surveyed by far.
             </p> */}
