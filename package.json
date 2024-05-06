@@ -50,6 +50,7 @@
     "react": "^18",
     "react-day-picker": "^8.10.0",
     "react-dom": "^18",
+    "react-ga4": "^2.1.0",
     "react-hook-form": "^7.50.1",
     "react-resizable-panels": "^2.0.9",
     "react-wrap-balancer": "^1.1.0",
