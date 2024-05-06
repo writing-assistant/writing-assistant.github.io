@@ -6,6 +6,8 @@ const defaultFields = {
   URL: z.string(),
   Year: z.number(),
   ID: z.string(),
+  Authors: z.string().optional(),
+  Abstract: z.string().optional(),
 };
 
 const dimensionFields = structuredFields.reduce((schema, field) => {
