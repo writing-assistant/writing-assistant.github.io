@@ -4,8 +4,8 @@
         "category": "task",
         "values": [
             {
-                "value": "Revision",
-                "label": "Revision"
+                "value": "Drafting",
+                "label": "Drafting"
             },
             {
                 "value": "Planning",
@@ -16,12 +16,12 @@
                 "label": "Idea generation"
             },
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Revision",
+                "label": "Revision"
             },
             {
-                "value": "Drafting",
-                "label": "Drafting"
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -30,20 +30,8 @@
         "category": "task",
         "values": [
             {
-                "value": "Journalistic",
-                "label": "Journalistic"
-            },
-            {
                 "value": "Professional",
                 "label": "Professional"
-            },
-            {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
-                "value": "Academic",
-                "label": "Academic"
             },
             {
                 "value": "Technical",
@@ -56,6 +44,18 @@
             {
                 "value": "Creative",
                 "label": "Creative"
+            },
+            {
+                "value": "Academic",
+                "label": "Academic"
+            },
+            {
+                "value": "Journalistic",
+                "label": "Journalistic"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -64,48 +64,48 @@
         "category": "task",
         "values": [
             {
-                "value": "Persuasive",
-                "label": "Persuasive"
-            },
-            {
-                "value": "Accessibility",
-                "label": "Accessibility"
-            },
-            {
                 "value": "Translation",
                 "label": "Translation"
-            },
-            {
-                "value": "Analytical",
-                "label": "Analytical"
-            },
-            {
-                "value": "Educational",
-                "label": "Educational"
-            },
-            {
-                "value": "Expository",
-                "label": "Expository"
-            },
-            {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
-                "value": "Descriptive",
-                "label": "Descriptive"
             },
             {
                 "value": "Entertainment",
                 "label": "Entertainment"
             },
             {
-                "value": "Narrative",
-                "label": "Narrative"
+                "value": "Analytical",
+                "label": "Analytical"
+            },
+            {
+                "value": "Accessibility",
+                "label": "Accessibility"
+            },
+            {
+                "value": "Educational",
+                "label": "Educational"
             },
             {
                 "value": "Feedback",
                 "label": "Feedback"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
+            },
+            {
+                "value": "Persuasive",
+                "label": "Persuasive"
+            },
+            {
+                "value": "Descriptive",
+                "label": "Descriptive"
+            },
+            {
+                "value": "Expository",
+                "label": "Expository"
+            },
+            {
+                "value": "Narrative",
+                "label": "Narrative"
             }
         ]
     },
@@ -114,20 +114,20 @@
         "category": "task",
         "values": [
             {
-                "value": "Specific Objectives",
-                "label": "Specific Objectives"
-            },
-            {
                 "value": "General Direction",
                 "label": "General Direction"
             },
             {
-                "value": "Detailed Requirements",
-                "label": "Detailed Requirements"
+                "value": "Specific Objectives",
+                "label": "Specific Objectives"
             },
             {
                 "value": "Nonspecific",
                 "label": "Nonspecific"
+            },
+            {
+                "value": "Detailed Requirements",
+                "label": "Detailed Requirements"
             }
         ]
     },
@@ -154,36 +154,36 @@
         "category": "user",
         "values": [
             {
-                "value": "Language & culture",
-                "label": "Language & culture"
-            },
-            {
-                "value": "Gender",
-                "label": "Gender"
-            },
-            {
                 "value": "Race",
                 "label": "Race"
             },
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Language & culture",
+                "label": "Language & culture"
             },
             {
                 "value": "Education",
                 "label": "Education"
             },
             {
-                "value": "Socioeconomic status",
-                "label": "Socioeconomic status"
+                "value": "Gender",
+                "label": "Gender"
             },
             {
                 "value": "Profession",
                 "label": "Profession"
             },
             {
+                "value": "Socioeconomic status",
+                "label": "Socioeconomic status"
+            },
+            {
                 "value": "Age",
                 "label": "Age"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -196,28 +196,28 @@
                 "label": "Language & culture"
             },
             {
-                "value": "Gender",
-                "label": "Gender"
-            },
-            {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Education",
                 "label": "Education"
             },
             {
-                "value": "Socioeconomic status",
-                "label": "Socioeconomic status"
+                "value": "Gender",
+                "label": "Gender"
             },
             {
                 "value": "Profession",
                 "label": "Profession"
             },
             {
+                "value": "Socioeconomic status",
+                "label": "Socioeconomic status"
+            },
+            {
                 "value": "Age",
                 "label": "Age"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -226,28 +226,28 @@
         "category": "user",
         "values": [
             {
-                "value": "Textual diversity",
-                "label": "Textual diversity"
+                "value": "Textual coherence",
+                "label": "Textual coherence"
             },
             {
                 "value": "Explainability",
                 "label": "Explainability"
             },
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Personalization",
                 "label": "Personalization"
             },
             {
-                "value": "Textual coherence",
-                "label": "Textual coherence"
-            },
-            {
                 "value": "Bias",
                 "label": "Bias"
+            },
+            {
+                "value": "Textual diversity",
+                "label": "Textual diversity"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -256,28 +256,28 @@
         "category": "user",
         "values": [
             {
-                "value": "Textual diversity",
-                "label": "Textual diversity"
+                "value": "Textual coherence",
+                "label": "Textual coherence"
             },
             {
                 "value": "Explainability",
                 "label": "Explainability"
             },
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Personalization",
                 "label": "Personalization"
             },
             {
-                "value": "Textual coherence",
-                "label": "Textual coherence"
-            },
-            {
                 "value": "Bias",
                 "label": "Bias"
+            },
+            {
+                "value": "Textual diversity",
+                "label": "Textual diversity"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -286,36 +286,36 @@
         "category": "user",
         "values": [
             {
+                "value": "Availability",
+                "label": "Availability"
+            },
+            {
                 "value": "Transparency",
                 "label": "Transparency"
-            },
-            {
-                "value": "Integrity",
-                "label": "Integrity"
-            },
-            {
-                "value": "Trust",
-                "label": "Trust"
             },
             {
                 "value": "Privacy",
                 "label": "Privacy"
             },
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Integrity",
+                "label": "Integrity"
+            },
+            {
+                "value": "Ownership",
+                "label": "Ownership"
+            },
+            {
+                "value": "Trust",
+                "label": "Trust"
             },
             {
                 "value": "Agency",
                 "label": "Agency"
             },
             {
-                "value": "Availability",
-                "label": "Availability"
-            },
-            {
-                "value": "Ownership",
-                "label": "Ownership"
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -324,32 +324,32 @@
         "category": "user",
         "values": [
             {
-                "value": "Transparency",
-                "label": "Transparency"
+                "value": "Availability",
+                "label": "Availability"
             },
             {
-                "value": "Trust",
-                "label": "Trust"
+                "value": "Transparency",
+                "label": "Transparency"
             },
             {
                 "value": "Privacy",
                 "label": "Privacy"
             },
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Ownership",
+                "label": "Ownership"
+            },
+            {
+                "value": "Trust",
+                "label": "Trust"
             },
             {
                 "value": "Agency",
                 "label": "Agency"
             },
             {
-                "value": "Availability",
-                "label": "Availability"
-            },
-            {
-                "value": "Ownership",
-                "label": "Ownership"
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -358,24 +358,12 @@
         "category": "user",
         "values": [
             {
-                "value": "Neurodiversity",
-                "label": "Neurodiversity"
+                "value": "Writing expertise",
+                "label": "Writing expertise"
             },
             {
                 "value": "Creativity",
                 "label": "Creativity"
-            },
-            {
-                "value": "Cognition",
-                "label": "Cognition"
-            },
-            {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
-                "value": "Writing expertise",
-                "label": "Writing expertise"
             },
             {
                 "value": "Empathy",
@@ -386,12 +374,24 @@
                 "label": "Efficiency"
             },
             {
-                "value": "Confidence",
-                "label": "Confidence"
+                "value": "Neurodiversity",
+                "label": "Neurodiversity"
             },
             {
                 "value": "Emotion",
                 "label": "Emotion"
+            },
+            {
+                "value": "Confidence",
+                "label": "Confidence"
+            },
+            {
+                "value": "Cognition",
+                "label": "Cognition"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -400,16 +400,36 @@
         "category": "user",
         "values": [
             {
-                "value": "Neurodiversity",
-                "label": "Neurodiversity"
+                "value": "Technical proficiency",
+                "label": "Technical proficiency"
+            },
+            {
+                "value": "Writing expertise",
+                "label": "Writing expertise"
             },
             {
                 "value": "Creativity",
                 "label": "Creativity"
             },
             {
-                "value": "Technical proficiency",
-                "label": "Technical proficiency"
+                "value": "Efficiency",
+                "label": "Efficiency"
+            },
+            {
+                "value": "Empathy",
+                "label": "Empathy"
+            },
+            {
+                "value": "Neurodiversity",
+                "label": "Neurodiversity"
+            },
+            {
+                "value": "Emotion",
+                "label": "Emotion"
+            },
+            {
+                "value": "Confidence",
+                "label": "Confidence"
             },
             {
                 "value": "Cognition",
@@ -418,26 +438,6 @@
             {
                 "value": "Other",
                 "label": "Other"
-            },
-            {
-                "value": "Writing expertise",
-                "label": "Writing expertise"
-            },
-            {
-                "value": "Empathy",
-                "label": "Empathy"
-            },
-            {
-                "value": "Efficiency",
-                "label": "Efficiency"
-            },
-            {
-                "value": "Confidence",
-                "label": "Confidence"
-            },
-            {
-                "value": "Emotion",
-                "label": "Emotion"
             }
         ]
     },
@@ -446,28 +446,28 @@
         "category": "technology",
         "values": [
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Crowdworker",
+                "label": "Crowdworker"
             },
             {
                 "value": "User",
                 "label": "User"
             },
             {
-                "value": "Authors",
-                "label": "Authors"
-            },
-            {
                 "value": "Expert",
                 "label": "Expert"
             },
             {
-                "value": "Crowdworker",
-                "label": "Crowdworker"
-            },
-            {
                 "value": "Machine",
                 "label": "Machine"
+            },
+            {
+                "value": "Authors",
+                "label": "Authors"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -484,16 +484,16 @@
                 "label": "Small (<100)"
             },
             {
-                "value": "Extremely large (>1M)",
-                "label": "Extremely large (>1M)"
+                "value": "Unknown",
+                "label": "Unknown"
             },
             {
                 "value": "Medium (<10k)",
                 "label": "Medium (<10k)"
             },
             {
-                "value": "Unknown",
-                "label": "Unknown"
+                "value": "Extremely large (>1M)",
+                "label": "Extremely large (>1M)"
             }
         ]
     },
@@ -501,6 +501,14 @@
         "name": "Model - Type",
         "category": "technology",
         "values": [
+            {
+                "value": "Foundation model",
+                "label": "Foundation model"
+            },
+            {
+                "value": "Statistical ML model",
+                "label": "Statistical ML model"
+            },
             {
                 "value": "Deep neural network",
                 "label": "Deep neural network"
@@ -512,14 +520,6 @@
             {
                 "value": "Other",
                 "label": "Other"
-            },
-            {
-                "value": "Statistical ML model",
-                "label": "Statistical ML model"
-            },
-            {
-                "value": "Foundation model",
-                "label": "Foundation model"
             }
         ]
     },
@@ -528,12 +528,12 @@
         "category": "technology",
         "values": [
             {
-                "value": "Tool",
-                "label": "Tool"
-            },
-            {
                 "value": "Data",
                 "label": "Data"
+            },
+            {
+                "value": "Tool",
+                "label": "Tool"
             },
             {
                 "value": "Other",
@@ -546,28 +546,28 @@
         "category": "technology",
         "values": [
             {
-                "value": "Rewriting",
-                "label": "Rewriting"
+                "value": "Retrieval",
+                "label": "Retrieval"
             },
             {
                 "value": "Regression",
                 "label": "Regression"
             },
             {
-                "value": "Structured prediction",
-                "label": "Structured prediction"
+                "value": "Rewriting",
+                "label": "Rewriting"
             },
             {
-                "value": "Retrieval",
-                "label": "Retrieval"
+                "value": "Classification",
+                "label": "Classification"
             },
             {
                 "value": "Generation",
                 "label": "Generation"
             },
             {
-                "value": "Classification",
-                "label": "Classification"
+                "value": "Structured prediction",
+                "label": "Structured prediction"
             }
         ]
     },
@@ -576,8 +576,8 @@
         "category": "technology",
         "values": [
             {
-                "value": "Supervised learning",
-                "label": "Supervised learning"
+                "value": "Reinforcement learning",
+                "label": "Reinforcement learning"
             },
             {
                 "value": "Unsupervised learning",
@@ -588,8 +588,8 @@
                 "label": "Self-supervised learning"
             },
             {
-                "value": "Reinforcement learning",
-                "label": "Reinforcement learning"
+                "value": "Supervised learning",
+                "label": "Supervised learning"
             }
         ]
     },
@@ -598,24 +598,24 @@
         "category": "technology",
         "values": [
             {
-                "value": "Prompt Engineering",
-                "label": "Prompt Engineering"
+                "value": "Fine-tuning",
+                "label": "Fine-tuning"
             },
             {
                 "value": "Training from scratch",
                 "label": "Training from scratch"
             },
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Tuning decoding parameters",
                 "label": "Tuning decoding parameters"
             },
             {
-                "value": "Fine-tuning",
-                "label": "Fine-tuning"
+                "value": "Prompt Engineering",
+                "label": "Prompt Engineering"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -624,20 +624,20 @@
         "category": "technology",
         "values": [
             {
-                "value": "Human evaluation",
-                "label": "Human evaluation"
-            },
-            {
-                "value": "Human-machine evaluation",
-                "label": "Human-machine evaluation"
+                "value": "Automatic evaluation",
+                "label": "Automatic evaluation"
             },
             {
                 "value": "Machine-learned evaluation",
                 "label": "Machine-learned evaluation"
             },
             {
-                "value": "Automatic evaluation",
-                "label": "Automatic evaluation"
+                "value": "Human evaluation",
+                "label": "Human evaluation"
+            },
+            {
+                "value": "Human-machine evaluation",
+                "label": "Human-machine evaluation"
             }
         ]
     },
@@ -646,16 +646,12 @@
         "category": "technology",
         "values": [
             {
-                "value": "Linguistic quality",
-                "label": "Linguistic quality"
-            },
-            {
                 "value": "Style & adequacy",
                 "label": "Style & adequacy"
             },
             {
-                "value": "Other",
-                "label": "Other"
+                "value": "Linguistic quality",
+                "label": "Linguistic quality"
             },
             {
                 "value": "Ethics",
@@ -664,6 +660,10 @@
             {
                 "value": "Controllability",
                 "label": "Controllability"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -672,12 +672,12 @@
         "category": "technology",
         "values": [
             {
-                "value": "Latency",
-                "label": "Latency"
-            },
-            {
                 "value": "Cost",
                 "label": "Cost"
+            },
+            {
+                "value": "Latency",
+                "label": "Latency"
             }
         ]
     },
@@ -686,12 +686,12 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Implicit",
-                "label": "Implicit"
-            },
-            {
                 "value": "No control",
                 "label": "No control"
+            },
+            {
+                "value": "Implicit",
+                "label": "Implicit"
             },
             {
                 "value": "Explicit",
@@ -708,6 +708,14 @@
         "category": "interaction",
         "values": [
             {
+                "value": "Selection",
+                "label": "Selection"
+            },
+            {
+                "value": "Inspiration",
+                "label": "Inspiration"
+            },
+            {
                 "value": "No integration",
                 "label": "No integration"
             },
@@ -718,14 +726,6 @@
             {
                 "value": "Other",
                 "label": "Other"
-            },
-            {
-                "value": "Inspiration",
-                "label": "Inspiration"
-            },
-            {
-                "value": "Selection",
-                "label": "Selection"
             }
         ]
     },
@@ -734,12 +734,12 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Text editor",
-                "label": "Text editor"
-            },
-            {
                 "value": "Chatbot",
                 "label": "Chatbot"
+            },
+            {
+                "value": "Text editor",
+                "label": "Text editor"
             },
             {
                 "value": "Other",
@@ -752,24 +752,24 @@
         "category": "interaction",
         "values": [
             {
+                "value": "Input UI",
+                "label": "Input UI"
+            },
+            {
                 "value": "Separated",
                 "label": "Separated"
+            },
+            {
+                "value": "Writing area",
+                "label": "Writing area"
             },
             {
                 "value": "Custom",
                 "label": "Custom"
             },
             {
-                "value": "Input UI",
-                "label": "Input UI"
-            },
-            {
                 "value": "Other",
                 "label": "Other"
-            },
-            {
-                "value": "Writing area",
-                "label": "Writing area"
             }
         ]
     },
@@ -778,20 +778,20 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Media type",
-                "label": "Media type"
+                "value": "Formatting",
+                "label": "Formatting"
             },
             {
                 "value": "None",
                 "label": "None"
             },
             {
-                "value": "Location",
-                "label": "Location"
+                "value": "Media type",
+                "label": "Media type"
             },
             {
-                "value": "Formatting",
-                "label": "Formatting"
+                "value": "Location",
+                "label": "Location"
             }
         ]
     },
@@ -800,20 +800,20 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
-                "value": "Tool",
-                "label": "Tool"
-            },
-            {
                 "value": "Hybrid",
                 "label": "Hybrid"
             },
             {
                 "value": "Agent",
                 "label": "Agent"
+            },
+            {
+                "value": "Tool",
+                "label": "Tool"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -826,12 +826,12 @@
                 "label": "System-initiated"
             },
             {
-                "value": "User-initiated",
-                "label": "User-initiated"
-            },
-            {
                 "value": "Other",
                 "label": "Other"
+            },
+            {
+                "value": "User-initiated",
+                "label": "User-initiated"
             }
         ]
     },
@@ -840,16 +840,16 @@
         "category": "interaction",
         "values": [
             {
+                "value": "Proposal",
+                "label": "Proposal"
+            },
+            {
                 "value": "Generation",
                 "label": "Generation"
             },
             {
                 "value": "Analysis",
                 "label": "Analysis"
-            },
-            {
-                "value": "Proposal",
-                "label": "Proposal"
             },
             {
                 "value": "Other",
@@ -862,12 +862,12 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Model",
-                "label": "Model"
-            },
-            {
                 "value": "Deterministic",
                 "label": "Deterministic"
+            },
+            {
+                "value": "Model",
+                "label": "Model"
             },
             {
                 "value": "Customized",
@@ -884,12 +884,12 @@
         "category": "interaction",
         "values": [
             {
-                "value": "Additional data",
-                "label": "Additional data"
-            },
-            {
                 "value": "Other",
                 "label": "Other"
+            },
+            {
+                "value": "Additional data",
+                "label": "Additional data"
             },
             {
                 "value": "Input text",
@@ -902,12 +902,12 @@
         "category": "ecosystem",
         "values": [
             {
-                "value": "Technical interoperability",
-                "label": "Technical interoperability"
-            },
-            {
                 "value": "Usability consistency",
                 "label": "Usability consistency"
+            },
+            {
+                "value": "Technical interoperability",
+                "label": "Technical interoperability"
             }
         ]
     },
@@ -916,12 +916,12 @@
         "category": "ecosystem",
         "values": [
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Designing for social writing",
                 "label": "Designing for social writing"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             },
             {
                 "value": "Designing with stakeholders",
@@ -938,12 +938,12 @@
                 "label": "Remote writing"
             },
             {
-                "value": "Other",
-                "label": "Other"
-            },
-            {
                 "value": "Local writing",
                 "label": "Local writing"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     },
@@ -952,12 +952,12 @@
         "category": "ecosystem",
         "values": [
             {
-                "value": "Commercial software",
-                "label": "Commercial software"
-            },
-            {
                 "value": "Free and open-source software",
                 "label": "Free and open-source software"
+            },
+            {
+                "value": "Commercial software",
+                "label": "Commercial software"
             },
             {
                 "value": "Other",
@@ -988,32 +988,32 @@
         "category": "ecosystem",
         "values": [
             {
-                "value": "Writing",
-                "label": "Writing"
-            },
-            {
                 "value": "Information environment",
                 "label": "Information environment"
-            },
-            {
-                "value": "Other",
-                "label": "Other"
             },
             {
                 "value": "Readers",
                 "label": "Readers"
             },
             {
-                "value": "Authors",
-                "label": "Authors"
-            },
-            {
                 "value": "Technologies",
                 "label": "Technologies"
             },
             {
+                "value": "Writing",
+                "label": "Writing"
+            },
+            {
+                "value": "Authors",
+                "label": "Authors"
+            },
+            {
                 "value": "Regulation",
                 "label": "Regulation"
+            },
+            {
+                "value": "Other",
+                "label": "Other"
             }
         ]
     }
