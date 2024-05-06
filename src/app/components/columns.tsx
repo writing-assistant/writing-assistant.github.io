@@ -149,6 +149,15 @@ const paperDataColumns: ColumnDef<Paper>[] = [
                         </span>
                       </div>
                   </div> */}
+                  <div className="pt-1 read-paper-icon">
+                    <div className="text-wrap pb-4">
+                        <span>
+                          <Badge variant="outline">
+                            <Link href={(row.getValue("Paper") as any).URL} target="_blank">Read paper</Link>
+                          </Badge>
+                        </span>
+                      </div>
+                  </div>
                   {
                     Object.keys(structuredFieldsGrouped).map((category) => {
                       const fields = structuredFieldsGrouped[category];
@@ -165,13 +174,13 @@ const paperDataColumns: ColumnDef<Paper>[] = [
                               {fields
                                 .filter((field) => row.getValue(field.name) && (row.getValue(field.name) as string).length > 0)
                                 .map((field) => {
-                                  const value = row.getValue(field.name);
-                                  return value ? (
+                                  const values = row.getValue(field.name);
+                                  return values ? (
                                     <div className="flex-initial">
                                       <HoverCard key={field.name}>
                                       <HoverCardTrigger className="transition duration-[5ms] delay-[0ms]">
                                         <span className="hover:underline">
-                                        {row.getValue(field.name)}
+                                        {Array.isArray(values) ? values.join(", ") : values}
                                         </span>
                                       </HoverCardTrigger>
                                       <HoverCardContent className="transition duration-[5ms] delay-[0ms]">
