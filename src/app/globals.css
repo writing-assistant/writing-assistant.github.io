@@ -82,12 +82,12 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-.dsiiwa-link {
+.dsiiwa-link, .form-link {
   color: #004aad;
   text-decoration: none;
 }
 
-.dsiiwa-link:hover {
+.dsiiwa-link:hover, .form-link:hover {
   text-shadow: 0px 0px 20px #f19c00;
   /* filter: dropshadow(color=#f19c00, offx=2, offy=2); */
 }
