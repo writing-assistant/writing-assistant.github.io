@@ -18,6 +18,20 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card"
+
+const structuredFieldsGrouped = structuredFields.reduce((acc, field) => {
+  const key = field.category;
+  if (!acc[key]) {
+    acc[key] = [];
+  }
+  acc[key].push(field);
+  return acc;
+}, {} as Record<string, typeof structuredFields>);
 
 const allDimensionColumns: ColumnDef<Paper>[] = structuredFields.map(
   (field) => {
@@ -87,9 +101,7 @@ const paperDataColumns: ColumnDef<Paper>[] = [
   },
   {
     id: "Paper",
-    accessorFn: (originalRow) => {
-      return {Paper:originalRow.Paper, URL:originalRow.URL, Authors:originalRow.Authors, Abstract:originalRow.Abstract}
-    },
+    accessorFn: (originalRow): Paper => originalRow,
     header: ({ column }) => (
       <DataTableColumnHeader column={column} title="Title" />
     ),
@@ -105,8 +117,7 @@ const paperDataColumns: ColumnDef<Paper>[] = [
                 </span>
               </AccordionTrigger>
               <AccordionContent>
-                <div className="max-w-[640px] min-w-[480px]">
-                  {
+                  {/* {
                     (row.getValue("Paper") as any)?.Authors && (
                       <div className="text-wrap pb-1">
                         <span className="pr-4 font-medium">  
@@ -131,13 +142,55 @@ const paperDataColumns: ColumnDef<Paper>[] = [
                         <span className="pr-3 font-medium">  
                             PDF
                         </span>
-                        <span><Badge variant="outline">
-                      <Link href={(row.getValue("Paper") as any).URL}>Link</Link>
-                    </Badge></span>
+                        <span>
+                          <Badge variant="outline">
+                            <Link href={(row.getValue("Paper") as any).URL}>Link</Link>
+                          </Badge>
+                        </span>
                       </div>
-                    
-                  </div>
-                </div>
+                  </div> */}
+                  {
+                    Object.keys(structuredFieldsGrouped).map((category) => {
+                      const fields = structuredFieldsGrouped[category];
+                      return (
+                        <div key={category} className="py-1">
+                          <div className="flex flex-row">
+                            <div className="basis-2/12">
+                              <Badge variant="secondary" className="capitalize">
+                                {category}
+                              </Badge>
+                            </div>
+                            <div className="basis-10/12">
+                              <div className="flex flex-row flex-wrap gap-x-3 gap-y-1">
+                              {fields
+                                .filter((field) => row.getValue(field.name) && (row.getValue(field.name) as string).length > 0)
+                                .map((field) => {
+                                  const value = row.getValue(field.name);
+                                  return value ? (
+                                    <div className="flex-initial">
+                                      <HoverCard key={field.name}>
+                                      <HoverCardTrigger className="transition duration-[5ms] delay-[0ms]">
+                                        <span className="hover:underline">
+                                        {row.getValue(field.name)}
+                                        </span>
+                                      </HoverCardTrigger>
+                                      <HoverCardContent className="transition duration-[5ms] delay-[0ms]">
+                                        <span>
+                                        {field.name}
+                                        </span>
+                                      </HoverCardContent>
+                                    </HoverCard>
+                                    </div>
+                                  ) : null;
+                                })
+                              }
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })
+                  }
               </AccordionContent>
             </AccordionItem>
           </Accordion>
