@@ -174,7 +174,7 @@ const paperDataColumns: ColumnDef<Paper>[] = [
                               {fields
                                 .filter((field) => row.getValue(field.name) && (row.getValue(field.name) as string).length > 0)
                                 .map((field) => {
-                                  const values = row.getValue(field.name);
+                                  const values: string[] = row.getValue(field.name);
                                   return values ? (
                                     <div className="flex-initial">
                                       <HoverCard key={field.name}>
