@@ -45,7 +45,12 @@ export function DataTable<TData, TValue>({
   const [columnFilters, setColumnFilters] = React.useState<ColumnFiltersState>(
     []
   )
-  const [sorting, setSorting] = React.useState<SortingState>([])
+  const [sorting, setSorting] = React.useState<SortingState>([  
+    {  
+      id: "Year",  
+      desc: true,  
+    },  
+  ])
 
   const table = useReactTable({
     data,
@@ -94,7 +99,7 @@ export function DataTable<TData, TValue>({
   return (
     <div className="space-y-4">
       <DataTableToolbar table={table} />
-      <div className="rounded-md border">
+      <div className="rounded-md border px-3 py-1">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map((headerGroup) => (
